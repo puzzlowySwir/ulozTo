@@ -1,0 +1,22 @@
+html, body {
+	height: 100%;
+	widht: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center {
+	display: table;
+	width: 100%;
+	height: 100%;
+}
+
+.centerElement {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
